@@ -1,0 +1,22 @@
+PROYECTO PORTAFOLIO-LEONARDO DE LA CADENA
+Caracteristicas generales:
+Información sobre mi formación
+
+-Tendrá los certificados que poseo
+-Educación que tengo
+-Idiomas
+-Conocimientos
+-Experiencia (para el futuro)
+-Certificados
+-Formulario para correo
+-Contactos
+
+
+-- Crear el usuario con la contraseña
+CREATE USER 'leoDLC'@'localhost' IDENTIFIED BY '753951aq.';
+
+-- Otorgar permisos para todas las operaciones en la base de datos 'mi_basedatos'
+GRANT ALL PRIVILEGES ON portafolio.* TO 'leoDLC'@'localhost';
+
+-- Actualizar los privilegios
+FLUSH PRIVILEGES;

@@ -1,0 +1,93 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #181A24;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+html {
+  box-sizing: border-box;
+  min-height: 100%;
+  scroll-snap-type: y mandatory;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+a {
+  
+}
+a:hover {
+  
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 40px;
+}
+p{
+  font-family: 'Source Sans 3', sans-serif;
+  color: #D6E5EF;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.gradient-text {
+  background-image: linear-gradient(
+    to right,
+    #7CB4F8,
+    #A0A7ED,
+    #95ABF0,
+    #AFA2E8,
+    #B1A1E8,
+    #A5A5EB,
+    #E88ED7,
+    #CB98E0,
+    #F38AD3,
+    #F98BBE,
+    #FB8FA6
+  );
+  -webkit-background-clip: text; /* Para navegadores basados en WebKit */
+  background-clip: text;
+  color: transparent; /* Hace que el texto sea transparente */
+}
