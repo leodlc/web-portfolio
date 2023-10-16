@@ -18,7 +18,7 @@ function Presentation(){
                             <p>
                                 Soy programador con experiencia en el diseño y desarrollo de aplicaciones web y bases de datos.
                                 Siempre estoy dispuesto a aprender cosas nuevas sobre el mundo del Software, me encuentro actualizandome
-                                con las nuevas tecnologias que salen al mercado, si te intereza contratarme puedes contactarme.
+                                con las nuevas tecnologias que salen al mercado, si te intereza que trabaje para ti puedes contactarme.
                             </p>
                         </div>
                     
